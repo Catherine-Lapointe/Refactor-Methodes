@@ -16,7 +16,7 @@ public class Main {
                 LocalDate.of(2026, 12, 12));
         shipment.addCargo(new Cargo("Medical supplies", 500, 18000, false));
         shipment.addCargo(new Cargo("Volatile fuel cells", 100, 9000, true));
-
+//blo
         ShipmentService service = new ShipmentService(new PricingService(), new PermissionService(),
                 new ManifestRepository(), new NotificationService());
         System.out.println(service.validateCalculatePrintSaveAndNotify(shipment));
