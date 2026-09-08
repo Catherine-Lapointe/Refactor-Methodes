@@ -4,9 +4,7 @@ public class Customer {
     private int id;
     private String name;
     private int loyaltyYears;
-    private boolean active;
-    private boolean suspended;
-    private double accountBalance;
+
 
     public Customer(int id, String name, int loyaltyYears) {
         this.id = id;
