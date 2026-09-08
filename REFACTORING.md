@@ -1,5 +1,6 @@
 # Journal de refactoring
 
-| Classe/méthode | Problème observé                     | Refactoring appliqué                                 | Justification                                                                     |
-|----------------|--------------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------------|
-| customerState  | le customer avait trop de paramètres | mis 3 paramètre de customer dans customerState soit boolean active, boolean suspended, double accountBalance | pour réduire le nombre de paramètre dans l'objet et les regroupé de façon logique |
+| Classe/méthode | Problème observé                     | Refactoring appliqué                                                                                              | Justification                                                                     |
+|----------------|--------------------------------------|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| customerState  | le customer avait trop de paramètres | j'ai mis 3 paramètre de customer dans customerState soit boolean active, boolean suspended, double accountBalance | pour réduire le nombre de paramètre dans l'objet et les regroupé de façon logique |
+| shipmentInfo| le shipment avait trop de paramètres| j'ai mis 4 paramètre de shipment dans shipmentInfo soit Planet origin, Planet destination, Ship ship, LocalDate departureDate | pour réduire le nombre de paramètre dans l'objet et les regroupé de façon logique |
