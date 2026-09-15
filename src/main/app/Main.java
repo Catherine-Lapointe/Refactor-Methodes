@@ -19,6 +19,6 @@ public class Main {
         shipment.addCargo(new Cargo("Volatile fuel cells", 100, 9000, true));
         ShipmentService service = new ShipmentService(new PricingService(), new PermissionService(),
                 new ManifestRepository(), new NotificationService());
-        System.out.println(service.validateCalculatePrintSaveAndNotify(shipment));
+        System.out.println(service.validateCalculatePrintSaveAndNotify(shipment,shipmentInfo));
     }
 }
